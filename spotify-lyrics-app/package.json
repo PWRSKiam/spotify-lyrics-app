@@ -1,0 +1,21 @@
+{
+  "name": "spotify-lyrics-app",
+  "version": "1.0.0",
+  "description": "An application to display lyrics and currently playing track information using Spotify and Genius APIs.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
